@@ -130,9 +130,9 @@ config.rb : compass's config
 | - | - favicon/ : 網頁標籤上左上角的小小icon
 | - game/ : 各遊戲檔案
 | - | - Mosquito_war/ : 掌蚊宗師遊戲檔案
-
-
 ```
-## Lisense
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
+## Lisense
+Copyright (c) NCKU The Mosquito Man Project. All rights reserved.
+
+Licensed under the MIT License.
