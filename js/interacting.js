@@ -3,20 +3,20 @@
 	var interactContent = [
 		{
 			"audio":"bgm_competition" ,
-			"link": "./interact/competition",
+			"link": "./competition.html",
 			"title":"群眾集力環境回報比賽",
 			"content":"雨後清積水，Iphone 任你選！"
 		},
 		{
 			"audio":"bgm_game" ,
-			"link": "./interact/game",
+			"link": "./game.html",
 			"title":"掌蚊人遊戲",
 			"content":"戰友們！請幫助我一起滅蚊吧！！"
 		}
 	] ;
 	var interactId = 1 ;
 	var interactLength = interactContent.length ;
-
+	
 	$('.select-right').click(function(){
 		$('.select-right').addClass('click_anim');
 
