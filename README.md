@@ -1,17 +1,19 @@
 # theMosquitoMan - WEBSITE
-
-### Description
 一個專門分享「衛教」、「環境衛生」、「打擊登革熱」資訊的網站。
 
 ## Getting Started
 
-### Pre Requirements
-Must have 
-+ [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
-+ For **`Ubuntu`** , you must have to install `ruby` and `ruby-compass`
-  - command: **`sudo apt install ruby-compass`**
-+ Node < 10.0 (Because gulp 3.9 doesn't support it)
+### Prerequistes
+* [node.js](https://nodejs.org/) `< 10.0` (This project doesn't support gulp with version higher than 3.9.)
+* [npm](https://www.npmjs.com/)
+* [http-server](https://www.npmjs.com/package/http-server)
 
+#### For Ubuntu Users
+Ubuntu users have to install `ruby` and `ruby-compass` as well.
+
+```sh
+sudo apt install ruby-compass
+```
 
 ### Install package
 
@@ -19,19 +21,26 @@ Must have
 npm install -i
 ```
 
-### Usage
-
-
-build sass , js, hbs, and minify
+### How to Use
+1. Build sass, js, and hbs
 
 ```bash
 $ gulp
 ```
 
-- Use **`gulp`** to construct it .
-  - **Maybe**, if your gilp doesn't work , you can make this command 
-  - **`npm install -g gulp-cli`** 
-- **`canner-core`** is your main component which you also use in [`handlebar.js`](http://handlebarsjs.com).
+If your `gulp` doesn't work, try the following command.
+
+```sh
+npm install -g gulp-cli
+```
+
+2. Start local http server
+
+```sh
+http-server
+```
+
+3. Open your browser and go to http://localhost:8000
 
 
 ## Develop
@@ -123,9 +132,7 @@ config.rb : compass's config
 | - | - Mosquito_war/ : 掌蚊宗師遊戲檔案 source 
 ```
 
-## Lisense
+## License
 Copyright (c) NCKU The Mosquito Man Project. All rights reserved.
 
 Licensed under the MIT License.
-
-
